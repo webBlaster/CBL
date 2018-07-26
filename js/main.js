@@ -264,3 +264,17 @@
 
 
 }());
+
+var $form = $('#form');
+
+$($form).hide();
+
+ $('#contact').click(function(){
+	$($form).show();
+	$('#page').hide();
+});
+
+$('#exit').click(function(){
+	$('#page').show();
+	$($form).hide();
+});
