@@ -19,6 +19,18 @@ body {
   background: #fff;
 }
 
+#form{
+  height: 20px !important;
+  align-content: center;
+}
+
+.fas, #exit{
+  color: black !important;
+  float: right !important;
+  cursor: pointer;
+  font-size: 20px;
+}
+
 #page {
   position: relative;
   overflow-x: hidden;
